@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My MVC Test</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="min-h-screen bg-gray-300 py-6 flex flex-col justify-center sm:py-12">
+        <div class="m-auto w-80 rounded-xl h-80 bg-gradient-to-tr from-blue-800 via-blue-500 to-green-400 shadow-lg">
+          <div class="flex flex-col justify-center items-center h-full">
+            <h3 class="text-xl font-bold mb-8">My MVC Content</h3>
+            <div class="flex row w-full justify-around px-5">
+                <span id="display" class="text-8xl">0</span>
+              </div>
+            <div class="flex row justify-center mt-6">
+                <button id="decButton" class="w-12 h-auto bg-red-500 rounded-2xl shadow-lg text-xl pb-1 mx-2 font-bold transition-all hover:bg-red-100">-</button>
+                <button id="addButton" class="w-12 h-auto bg-green-500 rounded-2xl shadow-lg text-xl pb-1 mx-2 font-bold transition-all hover:bg-green-100">+</button>
+            </div>
+          </div>
+        </div>  
+      </div>    
+      
+    <script type="module" src="./app/index.js"></script>
+</body>
+</html>
